@@ -1,0 +1,48 @@
+    .container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+p{
+    word-break: break-all;
+}
+.btn{
+    margin: 0 3px;
+}
+.primary{
+    color:Gray;
+}
+.button-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 1rem;
+}
+#my-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 500px){
+    .button-flex{
+        display:inline;
+        /* overflow-y:scroll; */
+
+        margin:0;
+        justify-content: center;
+        align-items: center;
+    }
+    #my-list{
+
+        display: inline;
+        flex-direction: column;
+    }
+    #unorder{
+        width: auto;
+        min-height: fit-content; 
+        overflow: scroll;
+    }
+
+}
